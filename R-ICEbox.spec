@@ -4,7 +4,7 @@
 #
 Name     : R-ICEbox
 Version  : 1.1.2
-Release  : 6
+Release  : 7
 URL      : https://cran.r-project.org/src/contrib/ICEbox_1.1.2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ICEbox_1.1.2.tar.gz
 Summary  : Individual Conditional Expectation Plot Toolbox
@@ -24,10 +24,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552866195
+export SOURCE_DATE_EPOCH=1552893329
 
 %install
-export SOURCE_DATE_EPOCH=1552866195
+export SOURCE_DATE_EPOCH=1552893329
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
